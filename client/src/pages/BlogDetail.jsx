@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { useNavigate, useParams } from 'react-router-dom';
-import { ArrowLeft, Clock, Share2, Facebook, Twitter, Linkedin } from 'lucide-react';
+import { ArrowLeft, Clock, Share2 } from 'lucide-react';
 
 const BlogDetail = () => {
   const navigate = useNavigate();
